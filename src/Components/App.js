@@ -27,8 +27,10 @@ class App extends Component {
                 lang: sessionStorage.getItem('lang')
             })
         }
+        document.querySelector('body').classList.add('lock')
         setTimeout(() => {
-            this.setState({isLoading: false})
+            this.setState({ isLoading: false })
+            document.querySelector('body').classList.remove('lock')
         }, 2000);
     }
     render() {
@@ -43,7 +45,10 @@ class App extends Component {
                         loadingStart={this.loadingStart}
                     />
                     <Routes>
-                        <Route path='/' element={<Home info={uk.home.info} />} ></Route>
+                        <Route path='/' element={<Home
+                            home={uk.home}
+                            loadingStart={this.loadingStart}
+                        />} ></Route>
                         <Route path='/literature' element={<Literature />} ></Route>
                     </Routes>
                     <Footer
@@ -65,7 +70,10 @@ class App extends Component {
                         loadingStart={this.loadingStart}
                     />
                     <Routes>
-                        <Route path='/' element={<Home info={en.home.info} />} ></Route>
+                        <Route path='/' element={<Home
+                            home={en.home}
+                            loadingStart={this.loadingStart}
+                        />} ></Route>
                         <Route path='/literature' element={<Literature />} ></Route>
                     </Routes>
                     <Footer
@@ -91,11 +99,13 @@ class App extends Component {
         sessionStorage.setItem('lang', e)
     }
     loadingStart() {
+        document.querySelector('body').classList.add('lock')
         this.setState({
             isLoading: true
         })
         setTimeout(() => {
             this.setState({ isLoading: false })
+            document.querySelector('body').classList.remove('lock')
         }, 1000);
     }
 }

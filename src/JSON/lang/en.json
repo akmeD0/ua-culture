@@ -31,25 +31,25 @@
         "links": [
             {
                 "id": 0,
-                "link": "123",
+                "link": "https://www.instagram.com/meu.ammor/",
                 "name": "Instagram",
                 "ico": "https://firebasestorage.googleapis.com/v0/b/ukrainian-culture-1.appspot.com/o/static%2Finst.svg?alt=media&token=94d99542-f02a-4488-8758-8104183720fe"
             },
             {
                 "id": 1,
-                "link": "123",
+                "link": "https://www.linkedin.com/in/roman-dovgai-201b25218/",
                 "name": "LinkedIn",
                 "ico": "https://firebasestorage.googleapis.com/v0/b/ukrainian-culture-1.appspot.com/o/static%2Fin.svg?alt=media&token=a2ec43dd-c62b-4833-9474-40c3d60f7902"
             },
             {
                 "id": 2,
-                "link": "123",
+                "link": "https://github.com/akmeD0",
                 "name": "GitHub",
                 "ico": "https://firebasestorage.googleapis.com/v0/b/ukrainian-culture-1.appspot.com/o/static%2Fgh.svg?alt=media&token=2a7312d0-7879-490e-a3b8-3871c6327691"
             },
             {
                 "id": 3,
-                "link": "123",
+                "link": "https://www.instagram.com/meu.ammor/",
                 "name": "Facebook",
                 "ico": "https://firebasestorage.googleapis.com/v0/b/ukrainian-culture-1.appspot.com/o/static%2Ffb.svg?alt=media&token=17bc8551-58aa-48c2-be36-c41708e09750"
             }
@@ -60,6 +60,40 @@
             "title": ["Ukrainian", "Culture"],
             "desc": "Welcome to the website about Ukrainian culture!",
             "img": "https://firebasestorage.googleapis.com/v0/b/ukrainian-culture-1.appspot.com/o/static%2Fmain-img.png?alt=media&token=50823f55-1952-4efc-a56b-2431c4f3315c"
-        }
+        },
+        "lor": {
+            "title": "What awaits you on our website:",
+            "sections": [
+                {
+                    "id": 0,
+                    "title": "Ukrainian literature",
+                    "firstLeter": "D",
+                    "text": "iscover the greatness and diversity of Ukrainian writers' works. We will introduce you to renowned classics and contemporary authors, highlighting the best works that have become symbols of the national literature.",
+                    "img": "https://firebasestorage.googleapis.com/v0/b/ukrainian-culture-1.appspot.com/o/static%2Fliterature_pic.png?alt=media&token=249afa32-b8e2-489e-956b-11e833624937",
+                    "alt": "Ukrainian writers",
+                    "link": "/literature"
+                },
+                {
+                    "id": 1,
+                    "title": "Cultural Heritage",
+                    "firstLeter": "D",
+                    "text": "elve into the world of Ukrainian culture and its distinctive traditions. Learn about national holidays, folk customs, and the preserved crafts that still thrive in our time.",
+                    "img": "https://firebasestorage.googleapis.com/v0/b/ukrainian-culture-1.appspot.com/o/static%2Fculture__img.png?alt=media&token=a2fb251c-caa2-4914-8943-85d91e3bc1c0",
+                    "alt": "Ukrainian weeding",
+                    "link": "/culture"
+                },
+                {
+                    "id": 2,
+                    "title": "Fascinating Articles",
+                    "firstLeter": "D",
+                    "text": "iscover the most fascinating aspects of Ukrainian culture, its influence on the modern world, and learn about the prominent personalities who have brought fame to Ukraine internationally.",
+                    "img": "https://firebasestorage.googleapis.com/v0/b/ukrainian-culture-1.appspot.com/o/static%2Fkiyv.png?alt=media&token=23d9e51a-b45f-47fb-a2f5-fc3c25f06527",
+                    "alt": "Kiyv",
+                    "link": "/facts"
+                }
+            ],
+            "btn": "learn more"
+        },
+        "pic": "https://firebasestorage.googleapis.com/v0/b/ukrainian-culture-1.appspot.com/o/static%2Fimg_bg(eng).png?alt=media&token=6e7df496-fca8-46b4-ad16-33b002edf7e4"
     }
 }

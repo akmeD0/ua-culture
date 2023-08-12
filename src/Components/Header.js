@@ -33,7 +33,6 @@ export default class Header extends Component {
         );
     }
     scrollChange() {
-        console.log(window.scrollY)
         if (window.scrollY >= 102) {
             document.getElementById('header').classList.add('scrolled')
         }
