@@ -1,0 +1,65 @@
+{
+    "nav" : [
+        {
+            "id": 0,
+            "text": "Home",
+            "link": "/"
+        },
+        {
+            "id": 1,
+            "text": "Literature",
+            "link": "literature"
+        },
+        {
+            "id": 2,
+            "text": "Culture",
+            "link": "culture"
+        },
+        {
+            "id": 3,
+            "text": "Facts",
+            "link": "facts"
+        }
+    ],
+    "footer": {
+        "nav": "navigation",
+        "text": "“Discover new horizons and stay with us to learn more about this grand cultural realm.”",
+        "copy": "Copyright © 2023 UA Culture, All rights reserved. Present by RomC0la."
+    },
+    "social": {
+        "title": "Social",
+        "links": [
+            {
+                "id": 0,
+                "link": "123",
+                "name": "Instagram",
+                "ico": "https://firebasestorage.googleapis.com/v0/b/ukrainian-culture-1.appspot.com/o/static%2Finst.svg?alt=media&token=94d99542-f02a-4488-8758-8104183720fe"
+            },
+            {
+                "id": 1,
+                "link": "123",
+                "name": "LinkedIn",
+                "ico": "https://firebasestorage.googleapis.com/v0/b/ukrainian-culture-1.appspot.com/o/static%2Fin.svg?alt=media&token=a2ec43dd-c62b-4833-9474-40c3d60f7902"
+            },
+            {
+                "id": 2,
+                "link": "123",
+                "name": "GitHub",
+                "ico": "https://firebasestorage.googleapis.com/v0/b/ukrainian-culture-1.appspot.com/o/static%2Fgh.svg?alt=media&token=2a7312d0-7879-490e-a3b8-3871c6327691"
+            },
+            {
+                "id": 3,
+                "link": "123",
+                "name": "Facebook",
+                "ico": "https://firebasestorage.googleapis.com/v0/b/ukrainian-culture-1.appspot.com/o/static%2Ffb.svg?alt=media&token=17bc8551-58aa-48c2-be36-c41708e09750"
+            }
+        ]
+    },
+    "home": {
+        "info": {
+            "title": ["Ukrainian", "Culture"],
+            "desc": "Welcome to the website about Ukrainian culture!",
+            "img": "https://firebasestorage.googleapis.com/v0/b/ukrainian-culture-1.appspot.com/o/static%2Fmain-img.png?alt=media&token=50823f55-1952-4efc-a56b-2431c4f3315c"
+        }
+    }
+}

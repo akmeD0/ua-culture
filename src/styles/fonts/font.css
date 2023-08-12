@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'kyivtype';
+    src: url('KyivTypeSerif-Thin.woff2') format('woff2'),
+        url('KyivTypeSerif-Thin.woff') format('woff'),
+        url('KyivTypeSerif-Thin.eot') format('eot');
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'kyivtype';
+    src: url('KyivTypeSerif-Regular3.woff2') format('woff2'),
+        url('KyivTypeSerif-Regular3.woff') format('woff'),
+        url('KyivTypeSerif-Regular3.eot') format('eot');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'kyivtype';
+    src: url('KyivTypeSerif-Medium3.woff2') format('woff2'),
+        url('KyivTypeSerif-Medium3.woff') format('woff'),
+        url('KyivTypeSerif-Medium3.eot') format('eot');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'kyivtype';
+    src: url('KyivTypeSerif-Light3.woff2') format('woff2'),
+        url('KyivTypeSerif-Light3.woff') format('woff'),
+        url('KyivTypeSerif-Light3.eot') format('eot');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'kyivtype';
+    src: url('KyivTypeSerif-Heavy3.woff2') format('woff2'),
+        url('KyivTypeSerif-Heavy3.woff') format('woff'),
+        url('KyivTypeSerif-Heavy3.eot') format('eot');
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'kyivtype';
+    src: url('KyivTypeSerif-Bold3.woff2') format('woff2'),
+        url('KyivTypeSerif-Bold3.woff') format('woff'),
+        url('KyivTypeSerif-Bold3.eot') format('eot');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'kyivtype';
+    src: url('KyivTypeSerif-Black2.woff2') format('woff2'),
+        url('KyivTypeSerif-Black2.woff') format('woff'),
+        url('KyivTypeSerif-Black2.eot') format('eot');
+    font-weight: 950;
+    font-style: normal;
+}
