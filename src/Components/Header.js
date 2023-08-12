@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import Logo from './often/Logo';
 import Nav from './often/Nav';
 import Lng from './often/Lng';
+import Burger from './often/Burger';
+import Aside from './Aside';
 
 export default class Header extends Component {
     constructor(props) {
@@ -27,8 +29,15 @@ export default class Header extends Component {
                             loadingStart={this.props.loadingStart}
                         />
                         <Lng currLang={this.props.currLang} changeLang={this.props.changeLang} />
+                        <Burger />
                     </div>
                 </div>
+                <Aside
+                    nav={this.props.nav}
+                    soc={this.props.soc}
+                    loadingStart={this.props.loadingStart}
+                    footer={this.props.footer}
+                />
             </header>
         );
     }

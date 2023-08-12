@@ -42,6 +42,8 @@ class App extends Component {
                         changeLang={this.changeLang}
                         currLang={this.state.lang}
                         nav={uk.nav}
+                        soc={uk.social}
+                        footer={uk.footer}
                         loadingStart={this.loadingStart}
                     />
                     <Routes>
@@ -67,6 +69,8 @@ class App extends Component {
                         changeLang={this.changeLang}
                         currLang={this.state.lang}
                         nav={en.nav}
+                        soc={en.social}
+                        footer={en.footer}
                         loadingStart={this.loadingStart}
                     />
                     <Routes>

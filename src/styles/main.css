@@ -235,6 +235,34 @@ main {
   opacity: 0.5;
 }
 
+.aside {
+  display: flex;
+  position: fixed;
+  justify-content: flex-end;
+  width: 100%;
+  height: 100%;
+  top: 100px;
+  right: -100%;
+  transition: right 0.5s ease;
+}
+.aside.active {
+  right: 0;
+}
+.aside__cont {
+  width: 100%;
+  max-width: 470px;
+  height: 100%;
+  background: #ADD8E6;
+  padding: 5px 45px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  overflow-y: auto;
+}
+.aside__list {
+  align-items: flex-end !important;
+}
+
 .header {
   position: fixed;
   top: 0;
@@ -245,7 +273,7 @@ main {
   justify-content: center;
   align-items: center;
   z-index: 50;
-  padding: 0px 40px;
+  padding: 0px 45px;
   transition: background 0.5s ease;
 }
 .header.scrolled {
@@ -257,6 +285,7 @@ main {
   justify-content: space-between;
   align-items: center;
   padding-right: 18px;
+  gap: 60px;
 }
 .header__right {
   display: flex;
@@ -266,6 +295,56 @@ main {
   width: 100%;
   max-width: 703px;
   min-height: 50px;
+  gap: 10px;
+}
+
+#burger {
+  width: 100%;
+  max-width: 50px;
+  min-height: 50px;
+  position: relative;
+  display: none;
+}
+#burger::before, #burger::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: #070933;
+  border-radius: 5px;
+  right: 0;
+  transition: all 0.5s ease;
+}
+#burger::before {
+  top: 10px;
+}
+#burger::after {
+  bottom: 10px;
+  max-width: 20px;
+}
+#burger span {
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: #070933;
+  border-radius: 5px;
+  right: 0;
+  top: 24px;
+  max-width: 35px;
+  transition: all 0.5s ease;
+}
+#burger.active::before {
+  transform: rotate(45deg);
+  top: 24px;
+}
+#burger.active::after {
+  transform: rotate(-45deg);
+  bottom: 24px;
+  max-width: 50px;
+}
+#burger.active span {
+  transform: scale(0);
 }
 
 .footer {
@@ -273,6 +352,9 @@ main {
   min-height: 504px;
   background: rgba(255, 192, 203, 0.5);
   padding: 80px 45px 25px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
 }
 .footer__cont {
   height: 100%;
@@ -415,7 +497,6 @@ main {
 .info__img {
   width: 100%;
   max-width: 845px;
-  height: 100%;
   max-height: 458px;
   position: absolute;
   top: 0;
@@ -454,6 +535,8 @@ main {
   width: 100%;
   max-width: 1144px;
   justify-content: space-between;
+  gap: 7px;
+  position: relative;
 }
 .lor__section:nth-child(1) .lor__section--img {
   max-height: 387px;
@@ -511,6 +594,7 @@ main {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  z-index: 2;
 }
 .lor__btn {
   position: relative;
@@ -547,4 +631,91 @@ main {
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+@media screen and (max-width: 1110px) {
+  .main {
+    min-height: 2583px;
+  }
+  .info__img {
+    max-width: 600px;
+    right: -210px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .lor__section--img {
+    max-height: 220px !important;
+  }
+}
+@media screen and (max-width: 960px) {
+  .main {
+    min-height: 2512px;
+  }
+  .info__img {
+    right: -350px;
+  }
+  .lor__section {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .lor__section--img {
+    position: absolute;
+    top: 155px;
+    right: 0;
+  }
+  .lor__section:nth-child(2) .lor__section--img {
+    left: 0;
+  }
+}
+@media screen and (max-width: 880px) {
+  .footer__text {
+    font-size: 14px;
+  }
+  .info__img {
+    max-width: 500px;
+    right: -260px;
+    top: 405px;
+  }
+}
+@media screen and (max-width: 756px) {
+  #burger {
+    display: block;
+  }
+  .main {
+    min-height: 2452px;
+  }
+  .main__cont {
+    gap: 65px;
+  }
+  .lor__section {
+    flex-direction: column !important;
+    gap: 0;
+  }
+  .lor__section:nth-child(2) {
+    align-items: flex-end;
+  }
+  .lor__section:nth-child(2) .lor__section--img {
+    align-self: flex-start;
+  }
+  .lor__section--img {
+    position: relative;
+    top: 0;
+    left: 0;
+    align-self: flex-end;
+    margin-top: -50px;
+  }
+  .info {
+    justify-content: center;
+  }
+  .info__img {
+    display: none;
+  }
+  .header__right {
+    max-width: 120px;
+  }
+  .nav {
+    display: none;
+  }
 }

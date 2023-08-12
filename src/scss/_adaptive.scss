@@ -1,0 +1,106 @@
+@media screen and (max-width: 1110px) {
+    .main {
+        min-height: 2583px;
+    }
+    .info {
+        &__img {
+            max-width: 600px;
+            right: -210px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    }
+    .lor{
+        &__section {
+            &--img {
+                max-height: 220px !important;
+            }
+        }
+    }
+}
+@media screen and (max-width: 960px) {
+    .main {
+        min-height: 2512px;
+    }
+    .info {
+        &__img {
+            right: -350px;
+        }
+    }
+    .lor {
+        &__section {
+            flex-direction: column;
+            align-items: flex-start;
+            &--img {
+                position: absolute;
+                top: 155px;
+                right: 0;
+            }
+            &:nth-child(2) {
+                & .lor__section {
+                    &--img {
+                        left: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 880px) {
+    .footer {
+        &__text {
+            font-size: 14px;
+        }
+    }
+    .info {
+        &__img {
+            max-width: 500px;
+            right: -260px;
+            top: 405px;
+        }
+    }
+}
+@media screen and (max-width: 756px) {
+    #burger {
+        display: block;
+    }
+    .main{
+        min-height: 2452px;
+        &__cont {
+            gap: 65px;
+        }
+    }
+    .lor {
+        &__section{
+            flex-direction: column !important;
+            gap: 0;
+            &:nth-child(2) {
+                align-items: flex-end;
+                & .lor__section--img {
+                    align-self: flex-start;
+                }
+            }
+            &--img {
+                position: relative;
+                top: 0;
+                left: 0;
+                align-self: flex-end;
+                margin-top: -50px;
+            }
+        }
+    }
+    .info {
+        justify-content: center;
+        &__img {
+            display: none;
+        }
+    }
+    .header{
+        &__right {
+            max-width: 120px;
+        }
+    }
+    .nav {
+        display: none;
+    }
+}
