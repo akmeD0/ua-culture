@@ -65,7 +65,8 @@
         display: block;
     }
     .main{
-        min-height: 2452px;
+        padding-top: 0;
+        min-height: 2392px;
         &__cont {
             gap: 65px;
         }
@@ -102,5 +103,217 @@
     }
     .nav {
         display: none;
+    }
+    footer {
+        & .footer {
+            &__box  {
+                max-width: 145px;
+            }
+            &__title {
+                font-size: 20px;
+            }
+            &__link {
+                font-size: 12px;
+            }
+            &__copy {
+                font-size: 10px;
+            }
+        }
+    }
+}
+@media screen and (max-width: 590px) {
+    .main {
+        min-height: 2154px;
+    }
+    .info {
+        &__title {
+            gap: 0;
+            &--text {
+                font-size: 38px;
+            }
+        }
+    }
+    .lor {
+        &__title {
+            font-size: 16px;
+        }
+        &__section {
+            &--title {
+                font-size: 26px;
+            }
+            &--text {
+                font-size: 10px;
+                padding: 5px 0px 10px 0px;
+                border-top: $gold dashed 2px;
+                border-bottom: $gold dashed 2px;
+                &>span {
+                    font-size: 26px;
+                }
+            }
+            &--img {
+                max-height: 170px !important;
+            }
+        }
+        &__box {
+            background: none !important;
+        }
+    }
+    .footer {
+        &__text {
+            font-size: 10px;
+        }
+        & .logo {
+            max-width: 25px;
+        }
+    }
+}
+@media screen and (max-width: 510px) {
+    footer {
+        & .footer {
+            &__title {
+                font-size: 14px;
+                text-align: center;
+            }
+            &__link {
+                font-size: 8px;
+                &>img {
+                    max-width: 10px;
+                }
+            }
+            &__copy {
+                font-size: 6px;
+            }
+            &__box {
+                align-items: flex-start;
+                max-width: 100px;
+            }
+            &__list {
+                align-items: flex-start;
+            }
+            &__soc {
+                align-items: flex-end;
+                & .footer__list {
+                    align-items: flex-end;
+                }
+            }
+        }
+    }
+    .footer {
+        padding: 35px 20px 25px;
+        min-height: 415px;
+        &__text {
+            font-size: 8px;
+        }
+    }
+    .header {
+        padding: 0 20px;
+        min-height: 70px;
+        & .logo {
+            max-width: 35px;
+        }
+        &__right {
+            max-width: 80px;
+        }
+    }
+    .main {
+        padding: 0 20px 60px;
+        min-height: 2093px;
+        margin-top: 70px;
+    }
+    .aside {
+        top: 70px;
+    }
+    .lng {
+        max-width: 30px;
+        &__current {
+            font-size: 14px;
+        }
+        &__btn {
+            font-size: 14px;
+            width: 33px;
+            height: 28px;
+            top: 23px;
+            left: -6px;
+        }
+    }
+    #burger {
+        max-width: 35px;
+        min-height: 35px;
+        &::before {
+            top: 5px;
+        }
+        &::after {
+            bottom: 5px;
+            width: 10px;
+        }
+        & span {
+            top: 16.5px;
+            width: 25px;
+        }
+        &.active {
+            &::before {
+                top: 16.5px;
+            }
+            &::after {
+                bottom: 16.5px;
+                width: 100%;
+            }
+        }
+    }
+    .lor {
+        &__btn {
+            font-size: 10px;
+            min-height: 25px;
+        }
+    }
+}
+@media screen and (max-width: 380px) {
+    .info {
+        align-items: flex-start;
+        &__box {
+            background-position: center 20px;
+        }
+    }
+    .lor {
+        &__box {
+            align-items: flex-start;
+            min-height: 200px;
+        }
+        &__btn {
+            align-self: flex-start !important;
+            left: 0 !important;
+        }
+        &__section {
+            align-items: center;
+            &--img {
+                align-self: center !important;
+                margin: 0;
+            }
+        }
+    }
+    .main {
+        min-height: 2011px;
+    }
+}
+@media screen and (max-width: 350px) {
+    .main {
+        min-height: 1922px;
+    }
+    .info {
+        min-height: 360px;
+        &__box {
+            background: url(../img/static/info__line\(mini\).png);
+            padding-right: 0;
+        }
+    }
+    .lor {
+        &__title {
+            font-size: 10px;
+        }
+        &__section {
+            &--title {
+                font-size: 20px;
+            }
+        }
     }
 }

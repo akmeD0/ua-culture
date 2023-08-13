@@ -8,17 +8,17 @@
         {
             "id": 1,
             "text": "Literature",
-            "link": "literature"
+            "link": "work"
         },
         {
             "id": 2,
             "text": "Culture",
-            "link": "culture"
+            "link": "work"
         },
         {
             "id": 3,
             "text": "Facts",
-            "link": "facts"
+            "link": "work"
         }
     ],
     "footer": {
@@ -71,7 +71,7 @@
                     "text": "iscover the greatness and diversity of Ukrainian writers' works. We will introduce you to renowned classics and contemporary authors, highlighting the best works that have become symbols of the national literature.",
                     "img": "https://firebasestorage.googleapis.com/v0/b/ukrainian-culture-1.appspot.com/o/static%2Fliterature_pic.png?alt=media&token=249afa32-b8e2-489e-956b-11e833624937",
                     "alt": "Ukrainian writers",
-                    "link": "/literature"
+                    "link": "/work"
                 },
                 {
                     "id": 1,
@@ -80,7 +80,7 @@
                     "text": "elve into the world of Ukrainian culture and its distinctive traditions. Learn about national holidays, folk customs, and the preserved crafts that still thrive in our time.",
                     "img": "https://firebasestorage.googleapis.com/v0/b/ukrainian-culture-1.appspot.com/o/static%2Fculture__img.png?alt=media&token=a2fb251c-caa2-4914-8943-85d91e3bc1c0",
                     "alt": "Ukrainian weeding",
-                    "link": "/culture"
+                    "link": "/work"
                 },
                 {
                     "id": 2,
@@ -89,7 +89,7 @@
                     "text": "iscover the most fascinating aspects of Ukrainian culture, its influence on the modern world, and learn about the prominent personalities who have brought fame to Ukraine internationally.",
                     "img": "https://firebasestorage.googleapis.com/v0/b/ukrainian-culture-1.appspot.com/o/static%2Fkiyv.png?alt=media&token=23d9e51a-b45f-47fb-a2f5-fc3c25f06527",
                     "alt": "Kiyv",
-                    "link": "/facts"
+                    "link": "/work"
                 }
             ],
             "btn": "learn more"

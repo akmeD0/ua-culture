@@ -6,6 +6,7 @@ import Header from '../Components/Header'
 import Footer from '../Components/Footer'
 import Home from '../Pages/Home';
 import Literature from '../Pages/Literature';
+import InProgress from '../Pages/InProgress';
 
 class App extends Component {
     constructor(props) {
@@ -52,6 +53,7 @@ class App extends Component {
                             loadingStart={this.loadingStart}
                         />} ></Route>
                         <Route path='/literature' element={<Literature />} ></Route>
+                        <Route path='/work' element={<InProgress />} />
                     </Routes>
                     <Footer
                         footer={uk.footer}
@@ -79,6 +81,7 @@ class App extends Component {
                             loadingStart={this.loadingStart}
                         />} ></Route>
                         <Route path='/literature' element={<Literature />} ></Route>
+                        <Route path='/work' element={<InProgress />} />
                     </Routes>
                     <Footer
                         footer={en.footer}

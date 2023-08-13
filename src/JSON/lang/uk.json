@@ -8,17 +8,17 @@
         {
             "id": 1,
             "text": "Література",
-            "link": "literature"
+            "link": "work"
         },
         {
             "id": 2,
             "text": "Культура",
-            "link": "culture"
+            "link": "work"
         },
         {
             "id": 3,
             "text": "Цікаві факти",
-            "link": "facts"
+            "link": "work"
         }
     ],
     "footer": {
@@ -71,7 +71,7 @@
                     "text": "ідкрийте для себе велич та різноманітність творчості українських письменників. Ми представимо вам відомих класиків та сучасних авторів, розкажемо про найкращі твори, що стали символами національної літератури.",
                     "img": "https://firebasestorage.googleapis.com/v0/b/ukrainian-culture-1.appspot.com/o/static%2Fliterature_pic.png?alt=media&token=249afa32-b8e2-489e-956b-11e833624937",
                     "alt": "Українські письменники",
-                    "link": "/literature"
+                    "link": "/work"
                 },
                 {
                     "id": 1,
@@ -80,7 +80,7 @@
                     "text": "оглибимося у світ української культури та її унікальних традицій. Ви дізнаєтесь про національні свята, народні звичаї та збережені до нашого часу ремесла.",
                     "img": "https://firebasestorage.googleapis.com/v0/b/ukrainian-culture-1.appspot.com/o/static%2Fculture__img.png?alt=media&token=a2fb251c-caa2-4914-8943-85d91e3bc1c0",
                     "alt": "Українське весілля",
-                    "link": "/culture"
+                    "link": "/work"
                 },
                 {
                     "id": 2,
@@ -89,7 +89,7 @@
                     "text": "ізнайтесь про найцікавіші аспекти української культури, її вплив на сучасний світ, а також про відомих особистостей, які прославили Україну у світі.",
                     "img": "https://firebasestorage.googleapis.com/v0/b/ukrainian-culture-1.appspot.com/o/static%2Fkiyv.png?alt=media&token=23d9e51a-b45f-47fb-a2f5-fc3c25f06527",
                     "alt": "Київ",
-                    "link": "/facts"
+                    "link": "/work"
                 }
             ],
             "btn": "Дізнатися більше"
