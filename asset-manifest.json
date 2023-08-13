@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/ua-culture/static/css/main.1dae0d8a.css",
+    "main.js": "/ua-culture/static/js/main.af9829ab.js",
+    "static/media/KyivTypeSerif-Black2.woff": "/ua-culture/static/media/KyivTypeSerif-Black2.8ae9e3d7fb67ea3ac6b9.woff",
+    "static/media/uk-load.gif": "/ua-culture/static/media/uk-load.9ad45ed5c59bd2387a9a.gif",
+    "static/media/KyivTypeSerif-Black2.eot": "/ua-culture/static/media/KyivTypeSerif-Black2.94cfc3c4b259a73cccfe.eot",
+    "static/media/KyivTypeSerif-Medium3.woff": "/ua-culture/static/media/KyivTypeSerif-Medium3.971a96c9e2caa24ae6e9.woff",
+    "static/media/KyivTypeSerif-Regular3.woff": "/ua-culture/static/media/KyivTypeSerif-Regular3.573c41bd9a8f7615809c.woff",
+    "static/media/KyivTypeSerif-Light3.woff": "/ua-culture/static/media/KyivTypeSerif-Light3.78ba3055cbe281465c35.woff",
+    "static/media/KyivTypeSerif-Heavy3.woff": "/ua-culture/static/media/KyivTypeSerif-Heavy3.fcc2a4232a111944d7f5.woff",
+    "static/media/KyivTypeSerif-Bold3.woff": "/ua-culture/static/media/KyivTypeSerif-Bold3.304f734d4d57fdea20f8.woff",
+    "static/media/KyivTypeSerif-Regular3.eot": "/ua-culture/static/media/KyivTypeSerif-Regular3.938f36164bab42e6bf8e.eot",
+    "static/media/KyivTypeSerif-Medium3.eot": "/ua-culture/static/media/KyivTypeSerif-Medium3.0034b2564bc043ad0724.eot",
+    "static/media/KyivTypeSerif-Thin.woff": "/ua-culture/static/media/KyivTypeSerif-Thin.0f19dbc7170d4dbc1689.woff",
+    "static/media/KyivTypeSerif-Light3.eot": "/ua-culture/static/media/KyivTypeSerif-Light3.12d910d83c5b8b2fd7ed.eot",
+    "static/media/KyivTypeSerif-Bold3.eot": "/ua-culture/static/media/KyivTypeSerif-Bold3.4a7b90824859dacbf433.eot",
+    "static/media/KyivTypeSerif-Heavy3.eot": "/ua-culture/static/media/KyivTypeSerif-Heavy3.1f4a262834196d601346.eot",
+    "static/media/KyivTypeSerif-Thin.eot": "/ua-culture/static/media/KyivTypeSerif-Thin.5f8901f8110b54307d60.eot",
+    "static/media/KyivTypeSerif-Black2.woff2": "/ua-culture/static/media/KyivTypeSerif-Black2.371c9524c73ec02150c2.woff2",
+    "static/media/KyivTypeSerif-Regular3.woff2": "/ua-culture/static/media/KyivTypeSerif-Regular3.107fa2a6a43b2989ac1d.woff2",
+    "static/media/KyivTypeSerif-Medium3.woff2": "/ua-culture/static/media/KyivTypeSerif-Medium3.bcd5190ecbc717024e65.woff2",
+    "static/media/KyivTypeSerif-Light3.woff2": "/ua-culture/static/media/KyivTypeSerif-Light3.bed8d5fa3bdb3b3f419c.woff2",
+    "static/media/KyivTypeSerif-Heavy3.woff2": "/ua-culture/static/media/KyivTypeSerif-Heavy3.ab0a0a889979f71d1fd4.woff2",
+    "static/media/KyivTypeSerif-Bold3.woff2": "/ua-culture/static/media/KyivTypeSerif-Bold3.82b84c48e4ec057f4380.woff2",
+    "static/media/KyivTypeSerif-Thin.woff2": "/ua-culture/static/media/KyivTypeSerif-Thin.dee9472f03ef341ab2b6.woff2",
+    "static/media/logo.svg": "/ua-culture/static/media/logo.78516615ffc62dd61541d3c6917f37f5.svg",
+    "index.html": "/ua-culture/index.html",
+    "static/media/triangle.svg": "/ua-culture/static/media/triangle.a1dcbfcd357932bb7fcc.svg",
+    "main.1dae0d8a.css.map": "/ua-culture/static/css/main.1dae0d8a.css.map",
+    "main.af9829ab.js.map": "/ua-culture/static/js/main.af9829ab.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1dae0d8a.css",
+    "static/js/main.af9829ab.js"
+  ]
+}
